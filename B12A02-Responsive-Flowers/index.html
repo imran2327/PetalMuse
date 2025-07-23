@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- googlr font/noto serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- google font/inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    .noto-serif {
+      font-family: "Noto Serif", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+
+    .inter {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+
+    #shoping_cart {
+      font-size: 20px;
+    }
+  </style>
+
+</head>
+
+<body class="inter">
+  <header class="max-w-[1400px]
+               mx-auto
+               px-5">
+    <nav class="flex
+                items-center
+                justify-between
+                mt-5">
+      <a href=""><img class="w-[135px]" src="img/logo.png" alt=""></a>
+      <ul class="text-16px
+                 flex
+                 items-center
+                 gap-6">
+        <li class="font-bold"><a href="">Home</a></li>
+        <li class="text-zinc-500"><a href="">Shop</a></li>
+        <li class="text-zinc-500"><a href="">About us</a></li>
+        <li>
+          <a href="">
+            <div class="flex
+                        items-center">
+              <i id="shoping_cart" class="fa-solid fa-cart-shopping"></i>
+              <h2 class="font-medium">
+                Cart ($56)
+              </h2>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex
+                items-end
+                justify-between
+                mt-30">
+      <div class="w-1/2">
+        <h1 class="noto-serif
+                   font-bold
+                   text-[65px]">
+          ALWAYS <span class="text-orange-500">FRESH FLOWERS</span>
+        </h1>
+        <p class="text-[22px] text-zinc-500">
+          Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+          blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+        </p>
+      </div>
+      <div class="w-1/2
+                  flex
+                  justify-end">
+        <img src="img/hero-flower.png" alt="">
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
